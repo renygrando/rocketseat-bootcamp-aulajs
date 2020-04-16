@@ -1,3 +1,5 @@
+//PROGRAMA FEITO PARA IMPRIMIR OS USUÁRIOS QUE USAM CSS
+
 const usuarios = [
     { nome: "Carlos", tecnologias: ["HTML", "CSS"] },
     { nome: "Jasmine", tecnologias: ["JavaScript", "CSS"] },
