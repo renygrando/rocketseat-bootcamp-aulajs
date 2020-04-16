@@ -1,3 +1,5 @@
+//CÁLCULO PARA VERIFICAÇÃO DE APOSENTADORIA POR TEMPO DE SERVIÇO
+
 const nome = 'Valberto Silvio Grando'
 const sexo = 'M'
 const idade = 65
