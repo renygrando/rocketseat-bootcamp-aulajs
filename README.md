@@ -1,2 +1,2 @@
 # rocketseat-bootcamp-aulajs
-Bootcamp - Lauchbase - Rocketseat : Treinando JavaScript
+Este é o Bootcamp Launchbase da Rocketseat onde estou estudando tecnologias web
