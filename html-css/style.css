@@ -1,3 +1,8 @@
+:root {
+    --color-green: yellowgreen;
+    --color-purple: #6c4fbb;
+}
+
 * {
     margin:0;
     padding: 0;
@@ -9,10 +14,15 @@ body {
 }
 header div {
     text-align: center;
-    background: rgba(78, 2, 219, 0.637);
+    background: var(--color-purple);
     padding: 30px;
 }
-header div a {
+.links {
+    text-align: center;
+    padding: 20px;
+}
+
+.links a {
     margin: 0px 30px;
     font-size: 18px;
     line-height: 28px;
@@ -21,8 +31,29 @@ header div a {
     text-decoration: none;
   }
 
-header div a:hover {
-    color: yellowgreen;
+.links a:hover {
+    color: var(--color-green);
     transition: 300ms;
 }
-  
+
+#imagecontent {
+    text-align: center;
+} 
+
+#imagecontent img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+}
+#imagecontent h1 {
+    color: #FFF;
+    font-size: 80px;
+    line-height: 90px;
+}
+
+#imagecontent h3 {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 30px;
+}
